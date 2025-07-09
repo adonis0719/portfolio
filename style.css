@@ -1,0 +1,190 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 14px;
+}
+
+nav a:hover {
+  background-color: #4CAF50;
+  border-radius: 4px;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #ddd;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Skill Bars */
+.skill-bars div {
+  margin: 10px 0;
+}
+
+.bar {
+  height: 10px;
+  background-color: #4CAF50;
+  width: 0;
+  transition: width 2s;
+  border-radius: 5px;
+}
+
+.python { width: 90%; }
+.js { width: 80%; }
+.flutter { width: 70%; }
+
+/* Projects toggle */
+.details {
+  display: none;
+  margin-top: 5px;
+}
+
+/* Back to top button */
+#backToTop {
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  padding: 10px 15px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+/* Dark mode support */
+body.dark {
+  background-color: #1e1e1e;
+  color: #eee;
+}
+
+body.dark section {
+  background-color: #2a2a2a;
+}
+
+body.dark nav {
+  background-color: #111;
+}
+
+#toggle-theme {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Style for the profile photo */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4CAF50;
+  display: block;
+  margin: 0 auto 15px auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Style for the resume download button */
+.resume-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #45a049;
+}
+
+.languages {
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.languages ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.languages h3 {
+  color: #4CAF50;
+  margin-top: 15px;
+}
+
+.skills {
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.skill-category {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f3f3f3;
+  border-left: 5px solid #4CAF50;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.skill-category h3 {
+  margin-top: 0;
+  color: #4CAF50;
+}
